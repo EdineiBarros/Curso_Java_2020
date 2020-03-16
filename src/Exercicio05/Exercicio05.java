@@ -3,6 +3,11 @@ package exercicio05;
 import java.util.Locale;
 import java.util.Scanner;
 
+/*Fazer um programa para ler o código de uma peça 1, o número de peças 1,
+ o valor unitário de cada peça 1,
+ o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2.
+ Calcule e mostre o valor a ser pago.*/
+
 public class Exercicio05 {
 
 	public static void main(String[] args) {
@@ -26,9 +31,11 @@ public class Exercicio05 {
 		estoquePeca2 = sc.nextInt();
 		System.out.println("informe o valor unitário da peça");
 		valorPeca2 = sc.nextDouble();
-		valorDoEstoque = (estoquePeca1*valorPeca1)+(estoquePeca2*valorPeca2);
+		valorDoEstoque = (estoquePeca1 * valorPeca1) + (estoquePeca2 * valorPeca2);
 
-		System.out.println("Um estoque com "+estoquePeca1+" peças código "+ codigoPeca1+" que custam "+valorPeca1+" e "+estoquePeca2+" peças código "+ codigoPeca2+" que custam "+valorPeca2+" vale "+valorDoEstoque);
+		System.out.println("Um estoque com " + estoquePeca1 + " peças código " + codigoPeca1 + " que custam "
+				+ valorPeca1 + " e " + estoquePeca2 + " peças código " + codigoPeca2 + " que custam " + valorPeca2
+				+ " vale " + valorDoEstoque);
 
 		sc.close();
 	}

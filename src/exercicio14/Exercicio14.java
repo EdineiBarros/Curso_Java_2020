@@ -3,6 +3,17 @@ package exercicio14;
 import java.util.Locale;
 import java.util.Scanner;
 
+/*Leia um valor com duas casas decimais, equivalente ao salário de uma pessoa de Lisarb.
+Em seguida, calcule e mostre o valor que esta pessoa deve pagar de Imposto de Renda,
+segundo a tabela abaixo:
+ALIQUOTAS DE IMPOSTO DE RENDA
+RENDA					ALIQUOTA
+0.00 	A 2000.00		ISENTO
+2000.01 A 3000.00		8%
+3000.01 A 4500.00		18%
+MAIS QUE 4500.00		28%
+*/
+
 public class Exercicio14 {
 	public static void main(String[] args){
 		Locale.setDefault(Locale.US);

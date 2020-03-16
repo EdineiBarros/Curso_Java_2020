@@ -1,7 +1,11 @@
 package exercicio07;
 
 import java.util.Scanner;
-//Aula - 35
+
+
+/*Fazer um programa para ler um número inteiro,
+ e depois dizer se este número é negativo ou não.*/
+
 public class Exercicio7 {
 
 	public static void main(String[] args) {

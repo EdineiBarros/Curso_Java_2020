@@ -1,7 +1,9 @@
 package exercicio08;
 
 import java.util.Scanner;
-//Aula - 35
+
+/*Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar*/
+
 public class Exercicio8 {
 
 	public static void main(String[] args) {
